@@ -29,10 +29,6 @@
             <groupId>com.sonatype.clm</groupId>
             <artifactId>clm-maven-plugin</artifactId>
             <configuration>
-              <serverUrl>http://host.docker.internal:8070</serverUrl>
-              <applicationId>producer</applicationId>
-              <stage>build</stage>
-              <serverId>clm_server</serverId>
             </configuration>
           </plugin>
         </plugins>
